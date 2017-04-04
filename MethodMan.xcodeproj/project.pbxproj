@@ -13,6 +13,7 @@
 		B03A44711E934245005A74A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03A446F1E934245005A74A8 /* Main.storyboard */; };
 		B03A44731E934245005A74A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03A44721E934245005A74A8 /* Assets.xcassets */; };
 		B03A44761E934245005A74A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03A44741E934245005A74A8 /* LaunchScreen.storyboard */; };
+		B03A447F1E934844005A74A8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B03A447E1E934844005A74A8 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B03A44721E934245005A74A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B03A44751E934245005A74A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B03A44771E934245005A74A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03A447D1E934844005A74A8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B03A447E1E934844005A74A8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B03A44741E934245005A74A8 /* LaunchScreen.storyboard */,
 				B03A44771E934245005A74A8 /* Info.plist */,
 				B03A44661E934245005A74A8 /* Supporting Files */,
+				B03A447D1E934844005A74A8 /* Person.h */,
+				B03A447E1E934844005A74A8 /* Person.m */,
 			);
 			path = MethodMan;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				B03A446E1E934245005A74A8 /* ViewController.m in Sources */,
 				B03A446B1E934245005A74A8 /* AppDelegate.m in Sources */,
+				B03A447F1E934844005A74A8 /* Person.m in Sources */,
 				B03A44681E934245005A74A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
